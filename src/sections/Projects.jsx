@@ -189,7 +189,7 @@ const projectPreviewImages = {
     `${import.meta.env.BASE_URL}previews/-Landing-Page-Passagens-Rel-mpago.png`,
 
     'Meu-Portif-lio':
-    `${import.meta.env.BASE_URL}previews/Meu-Portif-lio.png,`,
+    `${import.meta.env.BASE_URL}previews/Meu-Portif-lio.png`,
 }
 
 function Projects() {
