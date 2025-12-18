@@ -8,5 +8,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/Meu-Portif-lio/',
+
+   build: {
+    outDir: 'docs',
+    emptyOutDir: true,
+    },
 })
 

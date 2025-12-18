@@ -186,10 +186,10 @@ const projectDeployUrls = {
 // Imagens de prévias dos projetos
 const projectPreviewImages = {
   '-Landing-Page-Passagens-Rel-mpago':
-    `${import.meta.env.BASE_URL}previews/-Landing-Page-Passagens-Rel-mpago.png`,
+    '/previews/-Landing-Page-Passagens-Rel-mpago.png',
 
     'Meu-Portif-lio':
-    `${import.meta.env.BASE_URL}previews/Meu-Portif-lio.png`,
+    `/previews/Meu-Portif-lio.png`,
 }
 
 function Projects() {
