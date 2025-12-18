@@ -104,7 +104,7 @@ function About() {
         transition={{ duration: 0.6 }}
       >
         <ProfileImage whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>
-          <img src="/perfil.jpeg" alt="Foto de perfil" />
+          <img src={`${import.meta.env.BASE_URL}perfil.jpeg`} alt="Foto de perfil" />
         </ProfileImage>
       </ImageContainer>
 
